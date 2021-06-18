@@ -7,7 +7,7 @@ import {
   OptionsContainer, 
   OptionLink } from './Header.styles';
 
-import { ReactComponent as Logo } from '../../assets/crown.svg';
+import { ReactComponent as Logo } from '../../assets/monstera-leaf.svg';
 
 import CartIcon from '../CartIcon/CartIcon.component';
 import CartDropdown from '../CartDropdown/CartDropdown.component';
@@ -22,12 +22,12 @@ const Header = ({ currentUser, hidden, signOutStart }) =>
     <Logo />
   </LogoContainer>
   <OptionsContainer>
-    <OptionLink to='/shop'>SHOP</OptionLink>
+    <OptionLink to='/shop'>BOUTIQUE</OptionLink>
     <OptionLink to='/shop'>CONTACT</OptionLink>
     {
       currentUser
-      ? <OptionLink as='div' onClick={signOutStart}>SIGN OUT</OptionLink>
-      : <OptionLink to='/signin'>SIGN IN</OptionLink>
+      ? <OptionLink as='div' onClick={signOutStart}>SE DÉCONNECTER</OptionLink>
+      : <OptionLink to='/signin'>SE CONNECTER</OptionLink>
     }
     <CartIcon />
   </OptionsContainer>

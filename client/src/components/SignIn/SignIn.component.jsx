@@ -38,8 +38,8 @@ const SignIn = ({ emailSignInStart, googleSignInStart }) => {
 
   return (
     <SignInContainer>
-      <TitleContainer>I have already an account</TitleContainer>
-      <span>Sign In with your email and password</span>
+      <TitleContainer>J'ai déjà un compte</TitleContainer>
+      <span>Se connecter avec son email et son mot de passe</span>
 
       <form onSubmit={handleSubmit}>
         <FormInput
@@ -59,9 +59,9 @@ const SignIn = ({ emailSignInStart, googleSignInStart }) => {
           required
         />
         <ButtonsContainer>
-          <CustomButton type='submit'>Sign In</CustomButton>
+          <CustomButton type='submit'>se connecter</CustomButton>
           <CustomButton type='button' onClick={googleSignInStart} isGoogleSignIn>
-            Sign in with Google
+            connexion google
           </CustomButton>
         </ButtonsContainer>
       </form>

@@ -22,7 +22,7 @@ const CartDropdown = ({ cartItems, history, dispatch }) =>
       ? cartItems.map(cartItem => 
         <CartItem key={ cartItem.id } item={ cartItem } />
       )
-      : <EmptyMessageSpan>Your cart is empty</EmptyMessageSpan>
+      : <EmptyMessageSpan>Votre panier est vide</EmptyMessageSpan>
     }
   </CartItemsContainer>
   <CustomButton 
@@ -30,7 +30,7 @@ const CartDropdown = ({ cartItems, history, dispatch }) =>
       history.push('/checkout');
       dispatch(toggleCartHidden());
     }}
-  >GO TO CHECKOUT</CustomButton>
+  >ALLER AU PAIEMENT</CustomButton>
 </CartDropdownContainer>
 ;
 

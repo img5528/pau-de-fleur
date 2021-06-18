@@ -3,7 +3,7 @@ import axios from 'axios';
 
 const StripeCheckoutButton = ({ price }) => {
   const priceForStripe = price * 100;
-  const publishableKey = 'pk_test_51IoG7LL6LefSdWNotYHWCwQqFfR53a9oUYCGRshsznNa8kDud1gh5LvW2UWFOpnrq41EWVuISicThhC4aBPferCa009KbvE3C2';
+  const publishableKey = 'pk_test_51J3n60H4Fq9ZELbMSR3owJBEbYw5tIjJA0PiwOrRqSNmXwibS5bsjWcCmeEaldnZ9a9HVq8ltW3chzSfVeNWeH9S00MMOaiYZ1';
 
   const onToken = token => {
     axios({
@@ -24,15 +24,15 @@ const StripeCheckoutButton = ({ price }) => {
 
   return (
     <StripeCheckout 
-      label='Pay Now'
-      name='CRWN Clothing'
+      label='Payer maintenant'
+      name='Pau de fleur'
       billingAddress
       shippingAddress
       currency='EUR'
-      image='https://cdn.discordapp.com/attachments/357675942728040460/840023986079268894/stripe.svg'
-      description={`Your total is ${price}€`}
+      image='https://cdn.discordapp.com/attachments/357675942728040460/855526973963108392/monstera-leaf.svg'
+      description={`Votre total est de ${price}€`}
       amount={priceForStripe}
-      panelLabel='Pay Now'
+      panelLabel='Payer maintenant'
       token={onToken}
       stripeKey={publishableKey}
     />

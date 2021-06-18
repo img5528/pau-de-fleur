@@ -40,8 +40,8 @@ const SignUp = ({ signUpStart }) => {
 
   return (
     <SignUpContainer>
-      <TitleContainer>I do not have an account</TitleContainer>
-      <span>Sign up with your email and password</span>
+      <TitleContainer>Je n'ai pas de compte</TitleContainer>
+      <span>S'inscrire avec votre email et mot de passe</span>
       <form className="sign-up-form" onSubmit={ handleSubmit }>
         <FormInput
           type='text'
@@ -75,7 +75,7 @@ const SignUp = ({ signUpStart }) => {
           label='Confirm password'
           required
         />
-        <CustomButton type='submit'>SIGN UP</CustomButton>
+        <CustomButton type='submit'>S'INSCRIRE</CustomButton>
       </form>
     </SignUpContainer>
   )

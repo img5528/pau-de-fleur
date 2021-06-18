@@ -1,36 +1,36 @@
 const INITIAL_STATE = {
   sections: [
     {
-      title: 'hats',
-      imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
+      title: 'Décorations',
+      imageUrl: 'https://i.ibb.co/BctKpjx/Noe-Bouture-Bonne-Aventure-300x.jpg',
       id: 1,
-      linkUrl: 'shop/hats',
+      linkUrl: 'shop/decorations',
     },
     {
-      title: 'jackets',
-      imageUrl: 'https://i.ibb.co/px2tCc3/jackets.png',
+      title: 'Accessoires',
+      imageUrl: 'https://i.ibb.co/q7svZFb/177987955-327839705437572-9068159808614320470-n.jpg',
       id: 2,
-      linkUrl: 'shop/jackets',
+      linkUrl: 'shop/accessoires',
     },
     {
-      title: 'sneakers',
-      imageUrl: 'https://i.ibb.co/0jqHpnp/sneakers.png',
+      title: 'Papeterie',
+      imageUrl: 'https://i.ibb.co/R3cYjCW/image-processing20200510-14182-1jd1xnz.jpg',
       id: 3,
-      linkUrl: 'shop/sneakers',
+      linkUrl: 'shop/papeterie',
     },
     {
-      title: 'womens',
-      imageUrl: 'https://i.ibb.co/GCCdy8t/womens.png',
+      title: 'Plantounes',
+      imageUrl: 'https://i.ibb.co/HHWLR7P/175763671-1423473507991290-1370698949798168802-n.jpg',
       size: 'large',
       id: 4,
-      linkUrl: 'shop/womens',
+      linkUrl: 'shop/plantounes',
     },
     {
-      title: 'mens',
-      imageUrl: 'https://i.ibb.co/R70vBrQ/men.png',
+      title: 'Boutures',
+      imageUrl: 'https://i.ibb.co/P6zFVsn/bouture-photocredit-Caroline-noebouture4-2048x2048.jpg',
       size: 'large',
       id: 5,
-      linkUrl: 'shop/mens',
+      linkUrl: 'shop/boutures',
     }
   ]
 };

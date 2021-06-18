@@ -3,13 +3,13 @@ import 'firebase/firestore';
 import 'firebase/auth';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBR1CgmPhpd0ZGupJ1JVASLNDAsz988x40",
-  authDomain: "crwn-db-3d576.firebaseapp.com",
-  projectId: "crwn-db-3d576",
-  storageBucket: "crwn-db-3d576.appspot.com",
-  messagingSenderId: "681054481998",
-  appId: "1:681054481998:web:97f4b5a6c04fa3a2a89d1f",
-  measurementId: "G-3BVMBEF6TE"
+  apiKey: "AIzaSyAzR_pclI_g3N5QpxwfU5hgs_ilKKvGa-E",
+  authDomain: "pau-de-fleur.firebaseapp.com",
+  projectId: "pau-de-fleur",
+  storageBucket: "pau-de-fleur.appspot.com",
+  messagingSenderId: "619288004289",
+  appId: "1:619288004289:web:ca9b3ada5328ceb852f640",
+  measurementId: "G-60X889D1DB"
 };
 
 firebase.initializeApp(firebaseConfig);

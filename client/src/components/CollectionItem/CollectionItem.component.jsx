@@ -20,7 +20,7 @@ const CollectionItem = ({ item, addItem }) => {
         <NameSpan>{name}</NameSpan>
         <PriceSpan>{price}€</PriceSpan>
       </CollectionFooterContainer>
-      <CustomButtonContainer onClick={() => addItem(item) } inverted>Add to cart</CustomButtonContainer>
+      <CustomButtonContainer onClick={() => addItem(item) } inverted>Ajouter au panier</CustomButtonContainer>
     </CollectionItemContainer>
     );
   }
